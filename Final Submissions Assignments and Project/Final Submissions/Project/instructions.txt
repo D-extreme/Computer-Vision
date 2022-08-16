@@ -1,0 +1,6 @@
+This file contains the instructions for running the code.
+
+1. Go to Data Preprocessing and refer the readme there, to extract and split the dataset into train, test and validation.
+2. The above step will create "Data" folder, now download the pretrained model from drive link : https://drive.google.com/drive/folders/1a5RjG_iQ0O5aXwnNhwSuKuu7FmDxsXNr?usp=sharing into the "Data" folder.
+3. Now upload the entire folder named "project" on your google drive, and run the colab file in the "Colab Notebook" folder. Refer the readme in this folder as well.
+4. If any error arises, make sure the paths to the models and data are correct.

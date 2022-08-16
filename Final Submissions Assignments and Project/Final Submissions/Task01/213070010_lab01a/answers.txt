@@ -1,0 +1,28 @@
+1. 2022-01-15  10:00   13:00
+
+2. Virtual Environment: Virtualenv==20.13.0 (https://virtualenv.pypa.io/en/latest/#)
+I use Virtualenv as my virtual environment, it can be easily installed using pip. The virtual environment can be easily
+created using the command line interface, doesn't need any prior installations, and is also compatible with all the latest versions
+of Python. Thus, it is my preferred choice.
+
+3. The virtual environment is deactivated by the command "deactivate", which works once the virtual environment is activated.
+This capability is defined as a bash command in `venv/Scripts/deactivate.bat`.
+The visible effects of deactivation is vanishing of the name of the virtual environment from the terminal. While the environment
+is active, it appears before the path of the directory in brackets. The invisible effects is that the packages which were
+installed while the virtual environment was active cannot be used after the deactivation command, except those which are
+installed within the system environment.
+
+4. I installed opencv-python 3.4.2.16 as instructed in the assignment. Initially, I had Python 3.9 installed in my system
+and pip could not find the desired version (3.4.2.16). I searched the internet (https://pypi.org/project/opencv-python/3.4.2.16/)
+for acceptable versions of python that builds the desired version. I found out that Python 3.7 is the latest version which
+supports opencv-python 3.4.2.16. So I installed Python 3.7, and let pip install the desired package of opencv-python along
+with numpy and matplotlib. Finally, I verified the installations through pip freeze.
+
+5. 1/2 hour.
+
+6. My understanding of the contribution section is as follows:
+- The extent of contribution by every team member needs to be stated in the readme.txt of the submission
+- The total marks obtained by the group will be divided based on the proportion of contribution by each team member.
+- If one or more team members are claiming 100 contribution, they are claiming to reproduce the entire assignment
+and display depth of knowledge during the instructor viva without the help of any team members post
+evaluation.
