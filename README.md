@@ -1,3 +1,3 @@
 # Computer-Vision
-Repository Containing All Computer Vision Projects
+Repository Containing All CS 763 Computer Vision Assignments Projects done at IITB
 
